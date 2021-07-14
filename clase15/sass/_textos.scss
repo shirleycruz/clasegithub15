@@ -1,0 +1,21 @@
+.body {
+    font-family: verdana;
+  }
+  
+  .tituloPrincipal {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 3px;
+  }
+  
+  .misTitulos {
+    color: green;
+    font-size: 18px;
+  }
+  
+  .opciones > li > a:-webkit-any-link {
+    color: grey;
+    font-size: 16px;
+  }

@@ -1,0 +1,21 @@
+.botonWsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 25px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  .botonWsp img {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .botonWsp a {
+    display: block;
+    margin-top: 8px;
+  }
