@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>queguayperu</title>
+	<link type ="text/css" href="sass/estilos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>	
+	<!--mi header-->		
+		<header>
+			<nav>
+				<ul class="opciones">
+					<li class="header"><a href="index.html">Home</a></li> 
+					<li class="header"><a href="Productos.html">Productos</a></li> 
+					<li class="header"><a href="protocolos.html">Protocolo</a></li>
+					<li class="header"><a href="clientes.html">Clientes</a></li>
+					<li class="header"><a href="taller.html">Nuestro taller</a></li>
+					<li class="header"><a href="ayuda.html">Ayuda</a></li>
+				</ul>
+			</nav>			
+		</header>
+		<hr class="linea"></hr>
+</body>
+
+	<h1>¿Necesitas Ayuda?</h1>
+		<form action="recibe.html" method="POST" enctype="multipart/form-data">
+			<label for"nombre">Nombre y apellido</label>
+			<input type="text" name="Nombre y apellido" placeholder="Ingresa tu Nombre">
+			<br>
+			<br>
+			<label for"Celular">Celular</label>
+			<input type="text" name="Celular" placeholder="Ingresa tu número">
+			<br>
+			<br>
+			<label for"Correo electronico">Correo electronico</label>
+			<input type="text" name="Correo electronico" placeholder="Ingresa tu e-mail">
+			<br>
+			<br>
+			<label for="Tipo de Consulta">Tipo de consulta:</label>
+			<select name="estadocivil">
+				<option name= "S">Camas para perros</option>
+				<option name= "C">Cama para gatos</option>
+				<option name= "D">Alimentos</option>
+				<option name= "O">Otros</option>
+			</select>
+			<br>
+			<br>
+			<div id="terminos"> ¿Desea recibir nuestras promociones?
+			<input type="checkbox" name="acepta" value="1"></div>
+			<br>
+
+			<label for="Ingresa tu consulta">Ingresa tu consulta</label>
+			<br>
+			<TEXTAREA name="Ingresa tu consulta" rows="10" cols="30">¿En que podemos ayudarte?</TEXTAREA>
+			<br>
+			<input type="submit" name="sube_form" value="ENVIAR">
+			<input type="submit" name="resetear" value="BORRAR TODO">			
+		</form>
+	</div>
+</body>
+</html>
